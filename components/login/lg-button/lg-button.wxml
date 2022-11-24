@@ -1,0 +1,4 @@
+<view class="lgButton">
+  <button class="login">登录</button>
+  <button class="register">注册</button>
+</view>

@@ -1,0 +1,11 @@
+.inputBox {
+  width: 100%;
+  padding: 0 50rpx 30rpx;
+}
+.inputBox .input {
+  padding: 30rpx 50rpx;
+  font-size: 36rpx;
+  background-color: #fff;
+  border-radius: 30rpx;
+  margin-bottom: 30rpx;
+}

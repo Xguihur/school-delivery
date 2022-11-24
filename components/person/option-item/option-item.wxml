@@ -1,0 +1,6 @@
+<view class="optionItem" bindtap="clickBox">
+  <view class="oiIcon">
+    <image class="img" src="{{iconUrl}}" mode="widthFix"></image>
+  </view>
+  <view class="oiContent">{{msg}}</view>
+</view>

@@ -1,0 +1,12 @@
+<view class="container">
+  <!-- 搜索框 -->
+  <view class="searchBox">
+    <view class="searchInput">
+      <!-- 点击回车就是失去焦点，给失去焦点绑定事件即可 -->
+      <input class="weui-input" auto-focus placeholder="搜索你想吃的食物" value="{{value}}" bind:input="bindKeyInput" bind:blur="toSearch" />
+    </view>
+    <view class="searchIcon">
+      <van-icon name="search" size="60rpx" bind:click="toSearch" />
+    </view>
+  </view>
+</view>

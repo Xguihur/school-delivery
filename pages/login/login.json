@@ -1,0 +1,8 @@
+{
+  "usingComponents": {
+    "my-input": "/components/login/my-input/my-input",
+    "my-lg-button": "/components/login/lg-button/lg-button",
+    "van-checkbox": "@vant/weapp/checkbox/index",
+    "van-checkbox-group": "@vant/weapp/checkbox-group/index"
+  }
+}

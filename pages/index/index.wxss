@@ -1,0 +1,32 @@
+.container {
+  background-color: #fcfffd;
+  padding: 20rpx 40rpx;
+}
+.container .gridBox .grid {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 100%;
+  height: 150rpx;
+}
+.container .gridBox .grid .gridItem {
+  flex: 1;
+}
+.container .gridBox .grid .gridItem .gridImg {
+  width: 145rpx;
+}
+.container .recommendBox {
+  margin-top: 35rpx;
+  margin-bottom: 50rpx;
+}
+.container .recommendBox .recmdTitle {
+  color: #065123;
+  font-size: 46rpx;
+  font-weight: 600;
+  margin-left: 20rpx;
+}
+.container .recommendBox .recmdContent {
+  padding: 0 30rpx;
+  margin-top: 30rpx;
+  width: 100%;
+}

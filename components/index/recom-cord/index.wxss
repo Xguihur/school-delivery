@@ -1,0 +1,55 @@
+.recmdCard {
+  width: 100%;
+  height: 400rpx;
+  margin: 50rpx 0 80rpx;
+  background-color: #fff;
+  border-radius: 35rpx;
+  box-shadow: 0rpx 0rpx 45rpx #5bc88688;
+}
+.recmdCard .cardTop {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 80%;
+}
+.recmdCard .cardTop .cardLeftImg {
+  position: relative;
+  left: -70rpx;
+  flex: 1.3;
+  height: 220rpx;
+  background: url('http://8.134.111.95:90/image/index/Rectangle 46.png') no-repeat;
+  background-size: 100% 100%;
+}
+.recmdCard .cardTop .cardLeftImg .viewFoodList {
+  width: 60%;
+  margin: 20rpx 40rpx;
+}
+.recmdCard .cardTop .cardLeftImg .viewFoodList .foodListTitle {
+  font-size: 35rpx;
+  color: #fff;
+}
+.recmdCard .cardTop .cardLeftImg .viewFoodList .foodListItem {
+  float: right;
+  font-size: 28rpx;
+  color: #fff;
+}
+.recmdCard .cardTop .cardRightImg {
+  flex: 1;
+  position: relative;
+  right: 100rpx;
+  top: -30rpx;
+}
+.recmdCard .cardTop .cardRightImg image {
+  width: 175%;
+}
+.recmdCard .cardBottom {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 0 30rpx;
+  font-size: 40rpx;
+  font-weight: 600;
+}
+.recmdCard .cardBottom .cardPrice {
+  color: #5bc886;
+}

@@ -1,0 +1,6 @@
+{
+  "navigationBarTitleText": "个人中心",
+  "usingComponents": {
+    "my-option":"/components/person/option-item/option-item"
+  }
+}

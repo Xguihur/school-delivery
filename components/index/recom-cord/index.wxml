@@ -1,0 +1,20 @@
+<view class="container">
+  <view class="recmdCard">
+    <view class="cardTop">
+      <view class="cardLeftImg">
+        <view class="viewFoodList">
+          <view class="foodListTitle">主要食材：</view>
+          <view class="foodListItem">66dsad6</view>
+          <view class="foodListItem">dshadhjk</view>
+        </view>
+      </view>
+      <view class="cardRightImg">
+        <image src="/image/index/image.png" mode="widthFix"></image>
+      </view>
+    </view>
+    <view class="cardBottom">
+      <view class="cardTitle">蔬菜沙拉</view>
+      <view class="cardPrice">10￥</view>
+    </view>
+  </view>
+</view>

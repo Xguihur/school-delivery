@@ -1,0 +1,49 @@
+{
+  "pages": [
+    "pages/index/index",
+    "pages/menu/menu",
+    "pages/order/order",
+    "pages/person/person",
+    "pages/login/login"
+  ],
+  "tabBar": {
+    "list": [
+      {
+        "pagePath": "pages/index/index",
+        "text": "首页",
+        "iconPath": "image/tabbar/首页-首页.png",
+        "selectedIconPath": "image/tabbar/首页-1.png"
+      },
+      {
+        "pagePath": "pages/menu/menu",
+        "text": "菜单",
+        "iconPath": "image/tabbar/菜品管理.png",
+        "selectedIconPath": "image/tabbar/菜品管理-1.png"
+      },
+      {
+        "pagePath": "pages/order/order",
+        "text": "订单",
+        "iconPath": "image/tabbar/订单.png",
+        "selectedIconPath": "image/tabbar/订单-1.png"
+      },
+      {
+        "pagePath": "pages/person/person",
+        "text": "个人",
+        "iconPath": "image/tabbar/icon_账号.png",
+        "selectedIconPath": "image/tabbar/icon_账号-1.png"
+      }
+    ]
+  },
+  "window": {
+    "backgroundTextStyle": "dark",
+    "navigationBarBackgroundColor": "#fff",
+    "navigationBarTitleText": "校园订餐小程序",
+    "navigationBarTextStyle": "black",
+    "enablePullDownRefresh":true
+  },
+  "sitemapLocation": "sitemap.json",
+  "usingComponents": {
+    "van-icon": "@vant/weapp/icon/index",
+    "van-button": "@vant/weapp/button/index"
+  }
+}

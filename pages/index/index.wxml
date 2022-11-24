@@ -1,0 +1,24 @@
+<!-- index.wxml -->
+<view class="container">
+  <!-- 搜索框 -->
+  <view>
+    <my-search></my-search>
+  </view>
+  <!-- 菜单导航 -->
+  <view class="gridBox">
+    <view class="grid">
+      <view class="gridItem" wx:for="{{image}}" wx:for-item="item">
+        <image class="gridImg" mode="widthFix" src="{{item}}" />
+      </view>
+    </view>
+  </view>
+  <!-- 推荐菜品 -->
+  <view class="recommendBox">
+    <view class="recmdTitle">推荐菜品</view>
+    <view class="recmdContent">
+      <view wx:for="{{5}}">
+        <my-recomCard></my-recomCard>
+      </view>
+    </view>
+  </view>
+</view>

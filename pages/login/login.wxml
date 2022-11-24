@@ -1,0 +1,22 @@
+<!-- pages/login/login.wxml -->
+<view class="loginPage">
+  <view class="loginTop">
+    <image src="/image/login/logo.jpg" mode="widthFix"></image>
+    <view class="title">校园送</view>
+    <view class="state">专注大学校园里的配送</view>
+  </view>
+  <!-- 输入框 -->
+  <view class="inputComponent">
+    <my-input bind:changeNumber="changeNumber" bind:changePassword="changePassword"></my-input>
+  </view>
+  <!-- 登陆注册按钮 -->
+  <view class="bottomButton">
+    <my-lg-button></my-lg-button>
+  </view>
+  <!-- 同意用户协议 -->
+  <view class="access">
+    <van-checkbox class="checkbox" icon-size="40rpx" shape="square" value="{{checked}}" bind:change="onChange" checked-color="#248b59">
+      本人已同意《用户服务协议》和《隐私政策》
+    </van-checkbox>
+  </view>
+</view>

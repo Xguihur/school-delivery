@@ -1,0 +1,56 @@
+.orderCard {
+  background-color: #d96513;
+  .card {
+    flex: 1;
+    // position: relative;
+    padding: 30rpx;
+    margin: 40rpx 0;
+    display: flex;
+    // z-index: 1;
+    align-items: center;
+    background-color: #fefeff;
+    border-radius: 40rpx;
+    box-shadow: 6rpx 6rpx 18rpx #5daf7c88;
+    .cardImg {
+      flex: 1;
+    }
+    .cardContent {
+      flex: 4;
+      padding: 0 30rpx;
+      display: flex;
+      justify-content: space-between;
+      align-items: center;
+      .cardLeft {
+        .title {
+          font-size: 30rpx;
+          margin-bottom: 20rpx;
+        }
+        .price {
+          font-size: 38rpx;
+          font-weight: 600;
+          color: #4ad391;
+        }
+      }
+      .cardRight {
+        font-size: 26rpx;
+        color: #ea9159;
+        margin-top: 70rpx;
+      }
+    }
+  }
+  .deleteBox {
+    // position: absolute;
+    // left: -20rpx;
+    display: flex;
+    align-items: center;
+    width: 65px;
+    height: 100%;
+    border-radius: 40rpx;
+    background-color: #d96513;
+    // background-color: pink;
+    image {
+      width: 70rpx;
+      margin-left: 40rpx;
+    }
+  }
+}

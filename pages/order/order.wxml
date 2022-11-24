@@ -1,0 +1,7 @@
+<!-- pages/order/order.wxml -->
+<view class="container">
+  <view class="orderTitle">订单列表：</view>
+  <view wx:for="{{5}}">
+    <my-card-list></my-card-list>
+  </view>
+</view>

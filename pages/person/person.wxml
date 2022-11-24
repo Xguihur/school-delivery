@@ -1,0 +1,25 @@
+<!-- pages/person/person.wxml -->
+<view class="person">
+  <view class="perTop">
+    <view class="topContent">
+      <view class="img">
+        <image src="/image/person/touxiang1.JPG" mode="widthFix"></image>
+      </view>
+      <view class="title">
+        <view class="name">飘落的小凯</view>
+        <view class="addr">中国，北京</view>
+      </view>
+    </view>
+  </view>
+  <view class="perContent">
+    <view wx:for="{{msgList}}" wx:for-index="index">
+      <my-option iconUrl="{{item.icon}}" msg="{{item.message}}" bind:myClick="clickNotification" data-index="{{index}}"></my-option>
+    </view>
+  </view>
+  <view class="preExit">
+    <view class="exitIcon">
+      <image src="/image/person/Iconly_Curved_Logout.png" mode="widthFix"></image>
+    </view>
+    <button class="button">退出账号</button>
+  </view>
+</view>

@@ -1,0 +1,17 @@
+<van-swipe-cell right-width="{{ 65 }}" class="orderCard">
+  <view class="card">
+    <view class="cardImg">
+      <image class="card-leftImg" src="/image/order/MenuPhoto.png" mode="widthFix"></image>
+    </view>
+    <view class="cardContent">
+      <view class="cardLeft">
+        <view class="title">罗宋汤</view>
+        <view class="price">￥35</view>
+      </view>
+      <view class="cardRight">正在进行</view>
+    </view>
+  </view>
+  <view class="deleteBox" slot="right" bindtap="deleteItem">
+    <image src="/image/order/删除.png" mode="widthFix"></image>
+  </view>
+</van-swipe-cell>
