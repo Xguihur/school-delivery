@@ -4,6 +4,7 @@ Page({
    * 页面的初始数据
    */
   // 测试一下git commitzen
+  // 测试一下sourceMap的上传合并功能
   data: {
     checked: false
   },
