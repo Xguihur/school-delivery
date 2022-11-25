@@ -1,5 +1,5 @@
 <view class="container">
-  <view class="recmdCard">
+  <view class="recmdCard" bindtap="toDetail">
     <view class="cardTop">
       <view class="cardLeftImg">
         <view class="viewFoodList">

@@ -4,7 +4,8 @@
     "pages/menu/menu",
     "pages/order/order",
     "pages/person/person",
-    "pages/login/login"
+    "pages/login/login",
+    "pages/detail/detail"
   ],
   "tabBar": {
     "list": [

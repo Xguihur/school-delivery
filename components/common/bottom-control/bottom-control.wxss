@@ -1,0 +1,34 @@
+.detailBottom {
+  position: fixed;
+  width: 100%;
+  bottom: 0;
+  padding: 0 50rpx;
+  background-color: #fff;
+  display: flex;
+  height: 130rpx;
+  align-items: center;
+}
+.detailBottom .logo {
+  width: 132rpx;
+  margin-top: 10rpx;
+  margin-right: 30rpx;
+}
+.detailBottom .price {
+  flex: 1;
+  font-size: 38rpx;
+  font-weight: 600;
+}
+.detailBottom .right {
+  width: 200rpx;
+}
+.detailBottom .detailSubmit {
+  border-radius: 35rpx;
+  padding: 16rpx;
+  border: solid 0 #000;
+  color: #f2f2f2;
+  font-size: 34rpx;
+  background-color: #eed766;
+}
+.detailBottom .detailSubmit:active {
+  background-color: #d1b31b;
+}

@@ -1,0 +1,9 @@
+<view class="detailBottom">
+  <view class="logo">
+    <image src="/image/login/logo.jpg" mode="widthFix"></image>
+  </view>
+  <view class="price">￥10</view>
+  <view class="right">
+    <button class="detailSubmit">去结算</button>
+  </view>
+</view>

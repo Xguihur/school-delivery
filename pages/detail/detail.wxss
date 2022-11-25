@@ -1,0 +1,58 @@
+.detailBox {
+  padding-bottom: 150rpx;
+}
+.detailBox .detailTop .swiperBox {
+  padding: 0 40rpx;
+}
+.detailBox .detailTop .swiperBox .swiperItem {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.detailBox .detailTop .swiperBox .imgBox {
+  width: 500rpx;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  border-radius: 30rpx;
+  box-shadow: 0 0 10rpx #45c93989;
+}
+.detailBox .detailTop .swiperBox .imgBox .detailImg {
+  width: 340rpx;
+}
+.detailBox .detailContent {
+  margin-top: 80rpx;
+  padding: 0 50rpx;
+}
+.detailBox .detailContent .contentTop {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+.detailBox .detailContent .contentTop .left view:nth-child(1) {
+  font-size: 45rpx;
+  font-weight: 600;
+}
+.detailBox .detailContent .contentTop .left view:nth-child(2) {
+  font-size: 40rpx;
+  font-weight: 600;
+  color: #4eab3b;
+}
+.detailBox .detailContent .contentButton {
+  margin: 80rpx 0 30rpx;
+}
+.detailBox .detailContent .contentButton .detailButton {
+  width: 60%;
+  margin-left: 0;
+  border-radius: 60rpx;
+  color: #f2f2f2;
+  font-size: 48rpx;
+  background-color: #ebd569;
+}
+.detailBox .detailContent .contentButton .detailButton:active {
+  background-color: #d1b31b;
+}
+.detailBox .detailContent .contentMsg {
+  margin: 10rpx 0;
+  font-size: 35rpx;
+}

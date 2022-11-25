@@ -1,0 +1,66 @@
+.detailBox {
+  padding-bottom: 150rpx;
+  .detailTop {
+    .swiperBox {
+      padding: 0 40rpx;
+      .swiperItem {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+      }
+      .imgBox {
+        width: 500rpx;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        border-radius: 30rpx;
+        box-shadow: 0 0 10rpx #45c93989;
+
+        .detailImg {
+          width: 340rpx;
+        }
+      }
+    }
+  }
+  .detailContent {
+    margin-top: 80rpx;
+    padding: 0 50rpx;
+    .contentTop {
+      display: flex;
+      justify-content: space-between;
+      align-items: center;
+
+      .left {
+        view:nth-child(1) {
+          font-size: 45rpx;
+          font-weight: 600;
+        }
+        view:nth-child(2) {
+          font-size: 40rpx;
+          font-weight: 600;
+          color: rgb(78, 171, 59);
+        }
+      }
+      .right {
+      }
+    }
+    .contentButton {
+      margin: 80rpx 0 30rpx;
+      .detailButton {
+        width: 60%;
+        margin-left: 0;
+        border-radius: 60rpx;
+        color: #f2f2f2;
+        font-size: 48rpx;
+        background-color: #ebd569;
+      }
+      .detailButton:active {
+        background-color: #d1b31b;
+      }
+    }
+    .contentMsg {
+      margin: 10rpx 0;
+      font-size: 35rpx;
+    }
+  }
+}

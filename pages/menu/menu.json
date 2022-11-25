@@ -1,3 +1,5 @@
 {
-  "usingComponents": {}
+  "usingComponents": {
+    "my-menu-card": "/components/menu/card/card"
+  }
 }

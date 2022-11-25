@@ -1,0 +1,15 @@
+<view class="listItem">
+  <view class="itemLeft">
+    <view class="itemTitle">
+      <view>Bound</view>
+      <view>Salad</view>
+    </view>
+    <view class="itemState">
+      <view>actiansdl dshao of lksdj hjdhsia jdsa jdisoa jfdk</view>
+    </view>
+    <view class="itemPrice">￥28</view>
+  </view>
+  <view class="itemRight">
+    <image src="/image/index/image.png" mode="widthFix"></image>
+  </view>
+</view>

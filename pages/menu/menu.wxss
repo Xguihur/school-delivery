@@ -1,1 +1,38 @@
-/* pages/menu/menu.wxss */
+.menu .classify {
+  padding: 0 40rpx;
+}
+.menu .classify .classifyBox {
+  display: flex;
+  align-items: center;
+  margin-bottom: 20rpx;
+}
+.menu .classify .classifyBox .title {
+  font-size: 32rpx;
+  width: 140rpx;
+  margin-right: 30rpx;
+}
+.menu .classify .classifyBox .swiperBox {
+  flex: 1;
+  height: 60rpx;
+  font-size: 30rpx;
+}
+.menu .classify .classifyBox .swiperBox .swiperItem {
+  display: flex;
+  align-items: center;
+}
+.menu .classify .classifyBox .swiperBox .swiperItem .item {
+  flex: 1;
+  margin-right: 20rpx;
+  text-align: center;
+  border-radius: 20rpx;
+  border: solid 2rpx #2fcd51;
+}
+.menu .list {
+  padding: 0 40rpx;
+  margin-top: 50rpx;
+}
+.menu .list .listTitle {
+  font-size: 48rpx;
+  font-weight: 600;
+  margin-bottom: 50rpx;
+}

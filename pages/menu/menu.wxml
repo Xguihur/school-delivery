@@ -1,2 +1,30 @@
-<!--pages/menu/menu.wxml-->
-<text>pages/menu/menu.wxml</text>
+<!-- pages/menu/menu.wxml -->
+<view class="menu">
+  <view class="classify">
+    <view class="classifyBox">
+      <view class="title">菜系:</view>
+      <swiper class="swiperBox">
+        <swiper-item class="swiperItem" wx:for="{{3}}">
+          <view class="item">川菜</view>
+          <view class="item">湘菜</view>
+          <view class="item">粤菜</view>
+        </swiper-item>
+      </swiper>
+    </view>
+    <view class="classifyBox">
+      <view class="title">甜点饮品:</view>
+      <swiper class="swiperBox">
+        <swiper-item class="swiperItem" wx:for="{{3}}">
+          <view class="item">川菜</view>
+          <view class="item">湘菜</view>
+          <view class="item">粤菜</view>
+        </swiper-item>
+      </swiper>
+    </view>
+  </view>
+  <!-- 列表 -->
+  <view class="list">
+    <view class="listTitle">沙拉:</view>
+    <my-menu-card wx:for="{{6}}"></my-menu-card>
+  </view>
+</view>

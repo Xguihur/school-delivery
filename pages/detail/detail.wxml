@@ -1,0 +1,33 @@
+<!-- pages/detail/detail.wxml -->
+<view class="detailBox">
+  <!-- 轮播图 -->
+  <view class="detailTop">
+    <swiper class="swiperBox" autoplay>
+      <swiper-item class="swiperItem" wx:for="{{3}}">
+        <view class="imgBox">
+          <image class="detailImg" src="/image/index/main.png" mode="widthFix"></image>
+        </view>
+      </swiper-item>
+    </swiper>
+  </view>
+  <!-- 商品详情 -->
+  <view class="detailContent">
+    <view class="contentTop">
+      <view class="left">
+        <view>鸡肉堡</view>
+        <view>￥10</view>
+      </view>
+      <view class="right">
+        <van-icon name="star-o" size="50rpx" />
+      </view>
+    </view>
+    <view class="contentButton">
+      <button class="detailButton">加入购物车</button>
+    </view>
+    <view class="contentMsg" wx:for="{{8}}">
+      <p>statedsad dsad dsadqw dsasd dsadas</p>
+    </view>
+  </view>
+  <!-- 下单组件 -->
+  <my-bottom-control></my-bottom-control>
+</view>

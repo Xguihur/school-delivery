@@ -1,0 +1,5 @@
+{
+  "usingComponents": {
+    "my-bottom-control": "/components/common/bottom-control/bottom-control"
+  }
+}

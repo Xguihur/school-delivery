@@ -1,0 +1,34 @@
+.listItem {
+  position: relative;
+  padding-left: 30rpx;
+  margin-bottom: 50rpx;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  background-color: #fff;
+  border-radius: 20rpx;
+  box-shadow: 0rpx 10rpx 15rpx #ccc;
+}
+.listItem .itemLeft .itemTitle {
+  font-size: 38rpx;
+  font-weight: 600;
+}
+.listItem .itemLeft .itemState {
+  font-size: 30rpx;
+}
+.listItem .itemLeft .itemPrice {
+  margin-top: 30rpx;
+  font-size: 46rpx;
+  font-weight: 600;
+  color: #5cc987;
+}
+.listItem .itemRight {
+  position: relative;
+  top: -65rpx;
+  right: 50rpx;
+  width: 250rpx;
+  height: 300rpx;
+}
+.listItem .itemRight image {
+  width: 400rpx;
+}
